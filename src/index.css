@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap') */
+
+body{
+  background-color: #003710;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFCD1;
+}
+
+*{
+  overflow-x: hidden;
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+
+.primary-btn{
+  background-color: #FFFCD1;
+  color: #22522A;
+  border-radius: 4px;
+  width: fit-content;
+  padding: 10px 22px;
+}
